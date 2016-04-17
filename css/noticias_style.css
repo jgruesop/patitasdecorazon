@@ -1,0 +1,162 @@
+﻿*{/* El siguiente ejemplo elimina el margen y el relleno de todos los elementos HTML*/
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica;	
+}
+/*estilo del fondo*/
+body{
+	background-image: url(../img/fondonoticias.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+div#vacio1{
+	width: 100%;
+	height: 650px;
+}
+/*estilo de la franja negra que divide la cabeza con el cuerpo*/
+div#vacio2{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+}
+/*estilo para el contenedor del cuerpo secundario*/
+div#contenedor1{
+	width: 100%;
+	background-size: 100%;
+	background-image: url(../img/fondo.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+/*estilo para el cuerpo del cuerpo principal*/
+div#body{
+	margin: auto;
+	width: 1400px;
+	height: 2750px;
+	background-color: #111;
+}
+/*estilo para la división del menu principal*/
+div#menu{
+	position:relative;
+	width: 100%;
+	height: 100px;
+	background-color: #CCEEFF;
+}
+/*estilo para la figura o logo*/
+header figure{
+	position: top;
+	float: right;
+	margin: 8px 100px 0px 0px;
+	display: inline-block;
+}
+header figure img{
+	position: top;
+	width: 95px;
+	height: 90px;
+}
+/*estilo para el nombre principal*/
+header h1{
+	font-family: 'show into light', cursive;
+	color:write;
+	height: 9px;
+	margin: 0px 0px 0px 540px;
+	font-size: 80px;	
+}
+/*stilo para el menu*/
+ul.menu{
+	margin-top:160px;
+	list-style: none;
+}
+header nav ul li{	
+	margin-top: 15px; 
+	width: 160px;	
+	font-size: 20px;
+	background-color: #639bb3;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #939393;
+	-webkit-transition: padding-left 0.3s;/*realiza el efecto de espandir el boton por un determinado tiempo*/
+	color: write;
+}
+header nav ul li:hover{/*devuelve la posicion del boton al estado inicial para hacer el efecto deseado*/
+	padding-left:50px;
+}
+/*estilo para el texto*/
+section#texto{
+	width: 100%;
+	height: 30px;
+	font-size: 3em;
+	color: #eee;
+}
+body section p{
+	text-align: center;
+}
+/*estilo de la noticia*/
+ul.noticia{
+	width: 100%;
+	margin-top: 50px; 
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;	
+	padding: 10px;	
+	display: flex;
+	flex-wrap:wrap;	
+}
+ul.noticia li{
+	box-sizing: border-box;/*ajusta el ancho del padding*/
+	margin: 20px;
+	height: auto;	
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;	
+	border: 2px solid rgba(#fff, .7);	
+}
+ul.noticia img{
+	width: 490px;
+	height: 420px;
+	margin: 10px 0px 0px 90px;
+	border-radius: 50px;
+	display: block;				
+}
+ul.noticia li.titulo{
+	width: 550px;
+	list-style: none;
+	font-family: 'show into light', cursive;
+	height: 250px;
+	color: white;
+	font-size: 2.8em;	
+	text-align: center;
+
+}
+#resumen {
+	width: 550px;		
+	height: 250px;
+	margin: -190px 0px 0px 660px;
+	color: white;
+	font-size: 1.5em;	
+	text-align: left;
+}
+/*estilo del aside*/
+aside ul{
+	text-align: center;
+	list-style: none;
+	background: #ccc;	
+}
+aside ul li{
+	height: 4px; 
+	margin: 10px 20px 40px;	
+	font-size: 25px;
+	display: inline-block; 
+}
+/*stilo para le pie de pagina*/
+footer{
+	background-color: #1C1F1B;
+	color: white;
+	text-align: center;
+	display: block;
+	position: top;
+	font-size: 1.5em;		
+	height: 50px;	
+}

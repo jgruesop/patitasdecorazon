@@ -1,0 +1,146 @@
+*{/* El siguiente ejemplo elimina el margen y el relleno de todos los elementos HTML*/
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica;	
+}
+body{
+	background-image: url(../img/slide1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+div#vacio1{
+	width: 100%;
+	height: 650px;
+}
+div#vacio2{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+}
+div#contenedor1{
+	width: 100%;
+	background-size: 100%;
+	background-image: url(../img/fondo.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+div#body{
+	margin: auto;
+	width: 1400px;
+	height: 1000px;
+	background-color: white;
+}
+div#menu{
+	position:absolute;
+	width: 100%;
+	height: 100px;
+	background-color: #CCEEFF;
+}
+header figure{
+	position: top;
+	float: right;
+	margin: 8px 100px 0px 0px;
+	display: inline-block;
+}
+header figure img{
+	position: top;
+	width: 95px;
+	height: 90px;
+}
+header h1{
+	font-family: 'show into light', cursive;
+	color:write;
+	height: 9px;
+	margin: 0px 0px 0px 540px;
+	font-size: 80px;	
+}
+ul.menu{
+	margin-top:160px;
+
+	list-style: none;
+}
+header nav ul li{	
+	margin-top: 15px; 
+	width: 160px;	
+	font-size: 20px;
+	background-color: #639bb3;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	border-radius: 0px 20px 20px 0px;
+	padding-left: 20px;
+	box-shadow: 5px 0px 10px #939393;
+	-webkit-transition: padding-left 0.3s;/*realiza el efecto de espandir el boton por un determinado tiempo*/
+	color: write;
+}
+header nav ul li:hover{/*devuelve la posicion del boton al estado inicial para hacer el efecto deseado*/
+	padding-left:50px;
+}
+
+h2{
+	background-color: #1C1F1B;
+	font-family: 'show into light', cursive;
+	color:write;
+	height: 0px;
+	margin-left: 45px;
+	font-size: 35px;
+}
+section article{
+	float: center;
+	text-align: center;
+	display: block;
+	font-size: 1.5em;	
+	height: 0px;	
+	margin: 100px;
+}
+li#link{
+	margin: 435px 0px 0px 350px;
+	font-size: 1.5em;
+}
+figure#img{
+	position: top;
+	float: center;
+	margin: 9px 0px 0px 450px;
+	display: block;
+}
+div#vacio3{
+	width: 100%;
+	height: 200px;	
+}
+section#vacio3{
+	text-align: center;	
+	margin: 10px 20px 30px;
+	font-size: 3em;
+}
+p#text{
+	font-family: 'show into light', cursive;
+}
+/*estilo para el boton facebook*/
+div.fb-like{
+	margin: 0px;
+
+}
+/*estilo para el boton twitter*/
+/*estilo para el aside*/
+aside ul{
+	text-align: center;
+	list-style: none;
+	background: #ccc;	
+}
+aside ul li{
+	position:top;	
+	height: 4px; 
+	margin: 10px 20px 40px;	
+	font-size: 25px;
+	display: inline-block; 
+}
+footer{
+	background-color: #1C1F1B;
+	color: white;
+	text-align: center;
+	display: block;
+	position: top;
+	font-size: 1.5em;		
+	height: 50px;	
+}
+
